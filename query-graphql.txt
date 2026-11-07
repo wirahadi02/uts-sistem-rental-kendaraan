@@ -1,0 +1,13 @@
+query {
+  daftarPenyewaan {
+    id
+    tanggal_sewa
+    total_biaya
+    pelanggan {
+      nama
+    }
+    kendaraan {
+      merk
+    }
+  }
+}
